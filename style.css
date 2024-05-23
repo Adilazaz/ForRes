@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#slideImg{
+    width: 100%;
+    height: 100%;
+}
+#slideCol{
+    border-radius: 5px;
+    background: #00000041;
+}
+#mainImg {
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(0 0 10px #000);
+    transition: filter 0.6s, transform 0.6s;
+}
+#mainImg:hover {
+    filter: drop-shadow(0 0 50px #000);
+    transform: scale(1.2); 
+}
+.txtColor{
+    color: rgb(110, 110, 110);
+
+}
+.txtSize{
+    font-weight: 600;
+}
+.main-page{
+    margin-top: 30px;
+}
+#backgroundCol{
+    margin-top: 18px;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-color: rgb(241, 241, 241);
+}
+#txtSiz{
+    font-weight: 700;
+}
+#imgIphone{
+    width: 200px;
+}
+#imgIphone:hover{
+    transform: scale(1.2);
+
+}
+#watchImg {
+    width: 300px;
+    transition: transform 0.6s; 
+    filter: none; 
+    
+}
+#watchImg:hover {
+    filter: drop-shadow(0 0 30px #000);
+    transform: scale(1.2);
+    transition: filter 0.6s, transform 0.6s; 
+}
+#watchImg:not(:hover) {
+    transition: filter 0.6s, transform 0.6s;
+}
+#aStyle{
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+
+}
+.Gray{
+    filter: drop-shadow(0 0 25px #847469);
+    transition: transform 0.6s;
+}
+.Pink{
+    filter: drop-shadow(0 0 20px #ffcad3);
+    transition: transform 0.6s;
+}
+.WhiteBlue{
+    filter: drop-shadow(0 0 25px #357ca5);
+    transition: transform 0.6s;
+}
+.White{
+    filter: drop-shadow(0 0 25px #ff4bf38a);
+    transition: transform 0.6s;
+}
+.Yellou{
+    filter: drop-shadow(0 0 25px #FFE674);
+    transition: transform 0.6s;
+}
+.Blue{
+    filter: drop-shadow(0 0 25px #236080);
+    transition: transform 0.6s;
+}
+.Black{
+    filter: drop-shadow(0 0 25px #000000);
+    transition: transform 0.6s;
+}
